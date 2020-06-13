@@ -64,7 +64,8 @@ void func1(void){
 	return;
 }
 
-void tt(){
+void tt()
+{
 	func1();
 	F=1;
 	swapcontext(&child,&simulate);
